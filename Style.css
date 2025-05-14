@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ea590b;
+}
+
+header {
+    background-color: #f17c07;
+    color: white;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 2rem;
+}
+
+header ul li a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Hero Section */
+.hero {
+    background: url('gym-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.cta-btn {
+    background-color: #f39c12;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    padding: 3rem 2rem;
+    background-color: #f4f4f4;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+}
+
+/* Contact Form */
+.contact {
+    padding: 3rem 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #f39c12;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e67e22;
+}

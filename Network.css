@@ -1,0 +1,117 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo h1 {
+    color: orange;
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+section {
+    padding: 20px;
+}
+
+section#home {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+section#branches {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.branch-section h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #151414;
+}
+
+.branch {
+    background-color: #0c0b0b;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.branch h3 {
+    color: #f0ecec;
+    margin-bottom: 10px;
+}
+
+.branch p {
+    color: #f4eeee;
+    margin-bottom: 10px;
+}
+
+.facilities h4 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #fbf2f2;
+}
+
+.facilities ul {
+    list-style-type: none;
+    margin-top: 10px;
+    color: #ece6e6;
+}
+
+.facilities ul li {
+    padding: 5px 0;
+}
+
+section#about, section#contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: orange;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
